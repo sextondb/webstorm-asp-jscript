@@ -1,0 +1,1 @@
+<script language="JScript" src="globals-test.js" runat="server"></script>
