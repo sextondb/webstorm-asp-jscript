@@ -13,12 +13,11 @@ Provides code completion and links to documentation for the global ASP objects w
  * Session
 * @see documentation links for each global object and their members
  * [How to view inline documentation](http://www.jetbrains.com/webstorm/webhelp/viewing-inline-documentation.html)
-### Not Implemented
 
+### Not Implemented
 * Secondary collection properties
  * Request.Cookie("auth")("username")
  * Request.Form("ID").Count
-
 * camelCasing for members
 
 ### Installation Instructions
