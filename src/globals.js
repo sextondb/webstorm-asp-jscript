@@ -466,3 +466,38 @@ Session.prototype = {
     Timeout: 0
 };
 
+/**
+ * @see http://msdn.microsoft.com/en-us/library/ms524716%28v=vs.90%29.aspx
+ * @constructor
+ */
+var ScriptingContext = {
+    /**
+     * @type {Application}
+     */
+    Application: Application,
+
+    /**
+     * @type {ObjectContext}
+     */
+    ObjectContext: ObjectContext,
+
+    /**
+     * @type {Request}
+     */
+    Request: Request,
+
+    /**
+     * @type {Response}
+     */
+    Response: Response,
+
+    /**
+     * @type {Server}
+     */
+    Server: Server,
+
+    /**
+     * @type {Session}
+     */
+    Session: Session
+}

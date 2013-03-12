@@ -88,9 +88,15 @@
         result = session.SessionID;
         result = session.StaticObjects("key");
         result = session.Timeout;
+
+        //ScriptingContext Members
+        result = ScriptingContext.Application;
+        result = ScriptingContext.ObjectContext;
+        result = ScriptingContext.Request;
+        result = ScriptingContext.Response;
+        result = ScriptingContext.Server;
+        result = ScriptingContext.Session;
     }
     Response.ContentType = "text/plain";
     Response.Write("done");
 })();
-
-
